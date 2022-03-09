@@ -1,0 +1,11 @@
+Con este comando creamos nuestro primer controlador: 
+Con el --api nos crea nuestro 5 metodos
+Con el --model relacionamos con el modelo de Post.
+    php artisan make:controller Api/V1/PostController --api --model=Post
+
+
+Para crear recursos
+    php artisan make:resource V2/PostResource -> solo recursos
+    php artisan make:resource V2/PostCollection -> recursos de coleccion
+
+En las api son solo códigos de accion. no de mostrar vistas.
